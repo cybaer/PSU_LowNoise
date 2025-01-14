@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cybaer/git/PSU_LowNoise/HW/PSU_LowNoise.sch</source>
+    <date>Mo 05 Feb 2024 18:33:14 CET</date>
+    <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PSU_LowNoise.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="2x20V1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>Connect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C61B35</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2200µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C67EE6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C69A57</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C6A1DE</tstamp>
+    </comp>
+    <comp ref="+-17V1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>Connect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CD99CB</tstamp>
+    </comp>
+    <comp ref="Ctrl1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>Connect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDB795</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BAC43C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>6,8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BA60F3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BA5ACF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1n4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B96B1D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B958B9</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B94E7C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22µ/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B941D8</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B93C39</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B9371A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>220µ/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B92525</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B8DFFD</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B8D9F7</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B8D0AC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM317_TO-220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317_TO-220" description="1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B8C8A1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFEB9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>6,8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFED4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFEDA</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1n4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFEF0</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC327" description="0.8A Ic, 45V Vce, PNP Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFEF6</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFEFC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22µ/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF02</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF08</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF0E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>220µ/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF14</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF26</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF2C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65BDFF32</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GBU2506</value>
+      <footprint>Diode_THT:Diode_Bridge_Vishay_GBU</footprint>
+      <datasheet>http://www.vishay.com/docs/88656/gbu8a.pdf</datasheet>
+      <libsource lib="Diode_Bridge" part="GBU8K" description="Single-Phase Bridge Rectifier, 560V Vrms, 8.0A If, GBU package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C4EF89</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2200µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C55ED5</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2200µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C6B5F7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2200µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C6C102</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2,2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C70BA0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2,2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C966EB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65DE0F2B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65DE2040</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100µ/35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65DE3825</tstamp>
+    </comp>
+    <comp ref="+-28V1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>Connect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65E052B0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM337_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM337_TO220" description="Negative 1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C17F25</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_Bridge" part="GBU4A">
+      <aliases>
+        <alias>GBU4B</alias>
+        <alias>GBU4D</alias>
+        <alias>GBU4G</alias>
+        <alias>GBU4J</alias>
+        <alias>GBU4K</alias>
+        <alias>GBU4M</alias>
+        <alias>GBU8A</alias>
+        <alias>GBU8B</alias>
+        <alias>GBU8D</alias>
+        <alias>GBU8G</alias>
+        <alias>GBU8J</alias>
+        <alias>GBU8K</alias>
+        <alias>GBU8M</alias>
+        <alias>GBU6A</alias>
+        <alias>GBU6B</alias>
+        <alias>GBU6D</alias>
+        <alias>GBU6G</alias>
+        <alias>GBU6J</alias>
+        <alias>GBU6K</alias>
+        <alias>GBU6M</alias>
+      </aliases>
+      <description>Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package</description>
+      <docs>http://www.vishay.com/docs/88656/gbu4a.pdf</docs>
+      <footprints>
+        <fp>Diode*Bridge*Vishay*GBU*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">GBU4A</field>
+        <field name="Footprint">Diode_THT:Diode_Bridge_Vishay_GBU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="~~" type="passive"/>
+        <pin num="3" name="~~" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_TO-220">
+      <aliases>
+        <alias>AZ1117T-ADJ</alias>
+      </aliases>
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_TO-220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM337_TO220">
+      <aliases>
+        <alias>LT1033C</alias>
+        <alias>OM1323_TO220</alias>
+      </aliases>
+      <description>Negative 1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM337_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+        <alias>BC337</alias>
+        <alias>BC338</alias>
+      </aliases>
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+        <alias>BC327</alias>
+        <alias>BC328</alias>
+      </aliases>
+      <description>0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode_Bridge">
+      <uri>/usr/share/kicad/library/Diode_Bridge.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad2)">
+      <node ref="D1" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D7-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C12-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C16-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Ctrl1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(2x20V1-Pad1)">
+      <node ref="2x20V1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C18" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="+-28V1" pin="2"/>
+      <node ref="+-17V1" pin="2"/>
+      <node ref="Ctrl1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="2x20V1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="10" name="-24V">
+      <node ref="C8" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="+-28V1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="11" name="+28V">
+      <node ref="+-28V1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(2x20V1-Pad3)">
+      <node ref="2x20V1" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="15" name="VEE">
+      <node ref="U2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="+-17V1" pin="1"/>
+    </net>
+    <net code="16" name="VDD">
+      <node ref="D5" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="+-17V1" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C11-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C11-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+  </nets>
+</export>
